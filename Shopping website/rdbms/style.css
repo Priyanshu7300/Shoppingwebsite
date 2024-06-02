@@ -1,0 +1,79 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .signup {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+            width: 100%;
+        }
+
+        .signup h1 {
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        .signup h4 {
+            text-align: center;
+            margin-top: 5px;
+            margin-bottom: 20px;
+        }
+
+        .signup form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .signup label {
+            margin-bottom: 5px;
+        }
+
+        .signup input[type="text"],
+        .signup input[type="email"],
+        .signup input[type="password"],
+        .signup input[type="tel"] {
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            font-size: 16px;
+        }
+
+        .signup input[type="submit"] {
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            background-color: #007bff;
+            color: #fff;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .signup input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+
+        .signup p {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .signup p a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        .signup p a:hover {
+            text-decoration: underline;
+        }
